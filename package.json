@@ -1,0 +1,24 @@
+{
+  "name": "mynodeserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "test": "node_modules/.bin/mocha app.spec.js -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "sequelize": "^3.29.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "morgan": "^1.7.0",
+    "should": "^11.1.2",
+    "sqlite3": "^3.1.8",
+    "supertest": "^2.0.1"
+  }
+}
